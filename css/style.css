@@ -232,6 +232,56 @@ section {
   color: var(--light-white);
 }
 /* -------- About Section Ends -------- */
+/* ++++++++++++++++++++++++++++++++++ */
+/* -------- Courses Section Starts -------- */
+.courses .slide {
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.courses .slide img {
+    height: 25rem;
+    width: 100%;
+}
+.courses .slide h3 {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.courses .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--white);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--green);
+}
+/* -------- Courses Section Ends -------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ++++++++++++++++++++++++++++++++++ */
 /* --------- Media Queries --------- */
