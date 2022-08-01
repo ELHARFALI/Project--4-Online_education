@@ -235,93 +235,93 @@ section {
 /* ++++++++++++++++++++++++++++++++++ */
 /* -------- Courses Section Starts -------- */
 .courses .slide {
-    background-color: var(--light-bg);
-    border-radius: .5rem;
-    text-align: center;
-    padding: 2rem;
-    margin-bottom: 4rem;
-    user-select: none;
+  background-color: var(--light-bg);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  user-select: none;
 }
 
 .courses .slide img {
-    height: 25rem;
-    width: 100%;
+  height: 25rem;
+  width: 100%;
 }
 .courses .slide h3 {
-    margin: 1.5rem 0;
-    font-size: 2rem;
-    color: var(--white);
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  color: var(--white);
 }
 
-.courses .slide p{
-    line-height: 2;
-    font-size: 1.6rem;
-    color: var(--light-white);
+.courses .slide p {
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-white);
 }
 
 .swiper-pagination-bullet {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 .swiper-pagination-bullet-active {
-    background-color: var(--green);
+  background-color: var(--green);
 }
 /* -------- Courses Section Ends -------- */
 /* ++++++++++++++++++++++++++++++++++ */
 /* -------- Teachers Section Starts -------- */
-.teachers .slide{
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 4rem;
-    user-select: none;
+.teachers .slide {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 4rem;
+  user-select: none;
 }
 
 .teachers .slide img {
-    height: 55rem;
-    width: 100%;
-    object-fit: cover;
-    border-radius: .5rem;
+  height: 55rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
-.teachers .slide h3{
-    margin-top: 1.5rem;
-    font-size: 2rem;
-    color: var(--white);
-    text-align: center;
+.teachers .slide h3 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  color: var(--white);
+  text-align: center;
 }
 
 .teachers .slide .share {
-    position: absolute;
-    top: 1rem ;
-    left: -10rem;
+  position: absolute;
+  top: 1rem;
+  left: -10rem;
 }
 
 .teachers .slide:hover .share {
-    left: 2rem;
+  left: 2rem;
 }
 
 .teachers .slide .share a {
-    display: block;
-    margin-top: 1rem;
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    border-radius: .5rem;
-    background-color: var(--white);
-    color: var(--black);
-    text-align: center;
-    font-size: 2rem;
+  display: block;
+  margin-top: 1rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+  font-size: 2rem;
 }
 
 .teachers .slide .share a:hover {
-    background-color: var(--green);
-    color: var(--white);
+  background-color: var(--green);
+  color: var(--white);
 }
 /* -------- Teachers Section Ends -------- */
 /* ++++++++++++++++++++++++++++++++++ */
 /* -------- Reviews Section Starts -------- */
 .reviews-slider .slide {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--light-bg);
   padding: 2rem;
   margin-bottom: 4rem;
@@ -348,10 +348,10 @@ section {
   object-fit: cover;
 }
 
-.reviews-slider .slide .user  h3 {
+.reviews-slider .slide .user h3 {
   font-size: 2rem;
   color: var(--white);
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .reviews-slider .slide .user i {
@@ -384,7 +384,7 @@ section {
   width: 100%;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-color: var(--light-bg);
   font-size: 1.8rem;
   color: var(--white);
@@ -403,9 +403,9 @@ section {
 }
 
 .contact .row form .radio label {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
   color: var(--light-white);
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   cursor: pointer;
 }
 
@@ -426,37 +426,49 @@ section {
   border-radius: 5rem;
 }
 
-.contact .row form .radio #male:checked ~ label[for="male"]{
+.contact .row form .radio #male:checked ~ label[for="male"] {
   color: var(--green);
 }
 
-.contact .row form .radio #female:checked ~ label[for="female"]{
+.contact .row form .radio #female:checked ~ label[for="female"] {
   color: var(--green);
 }
 /* -------- Contact Section Ends -------- */
+/* ++++++++++++++++++++++++++++++++++ */
+/* -------- Footer Section Starts -------- */
+.footer {
+  background-color: var(--light-bg);
+  text-align: center;
+}
 
+.footer .share a {
+  margin: 0 0.3rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: var(--white);
+  background-color: var(--black);
+}
 
+.footer .share a:hover {
+  background-color: var(--green);
+}
 
+.footer .credit {
+  margin-top: 2.5rem;
+  padding: 1rem;
+  padding-top: 2.5rem;
+  border-top: 0.1rem solid var(--light-white);
+  font-size: 2rem;
+  color: var(--light-white);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .credit span {
+  color: var(--green);
+}
+/* -------- Footer Section Ends -------- */
 
 /* ++++++++++++++++++++++++++++++++++ */
 /* --------- Media Queries --------- */
